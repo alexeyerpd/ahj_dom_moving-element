@@ -1,0 +1,43 @@
+.container {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  gap: 20px;
+}
+
+.field {
+  border: 1px solid #000;
+  border-collapse: collapse;
+
+  margin-inline: auto;
+}
+
+.column {
+  width: 250px;
+  height: 250px;
+
+  padding: 5px;
+
+  border: 1px solid #000;
+}
+
+.img {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+
+.btn-restart {
+  width: 70px;
+  height: 70px;
+  padding: 10px;
+
+  color: #0f0;
+
+  border: 1px solid #000;
+  border-radius: 50%;
+
+  background: none;
+
+  cursor: pointer;
+}
