@@ -54,7 +54,6 @@ export class Field {
         </table>
         <button class="btn-restart">Заново</button>
       </div>
-        
     `
     );
     this.field = document.querySelector(".field");
